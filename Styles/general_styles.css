@@ -1,0 +1,295 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: inherit;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 30px 0 40px 0;
+}
+
+.festival {
+  margin-right: auto;
+  margin-left: 20rem;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+span {
+  color: red;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 20px 0;
+  margin-right: 20rem;
+}
+
+li,
+.foot {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #101010;
+}
+
+.picture {
+  background-image: url(./Rectangle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Lato";
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 700;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.tickets {
+  background-color: #eb5757;
+  color: #ffffff;
+}
+
+.artists {
+  background-color: #ffffff;
+  color: #eb5757;
+}
+
+button {
+  font-family: "Open";
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 50px;
+  border: none;
+}
+
+.bottom {
+  background-color: #eb5757;
+}
+
+.text_bottom {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 21px;
+}
+
+.artists_container,
+.galery_container,
+.tickets_container,
+.location_container,
+.contact_container {
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.tickets_container {
+  padding-bottom: 70px;
+}
+
+.galery_container,
+.location_container {
+  background-color: rgb(34, 34, 34, 0.02);
+  padding-bottom: 70px;
+}
+
+h3 {
+  font-family: "Lato";
+  color: #222222;
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 60px;
+}
+
+.line {
+  border-bottom: 5px solid #eb5757;
+  width: 30px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.artists_container p,
+.galery_container p,
+.tickets_container p,
+.location_container p,
+.contact_info p {
+  color: #222222;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.artists_pictures,
+.galery_pictures,
+.tickets_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.foot {
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 20px 0;
+  margin-right: 10rem;
+}
+
+.second_li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 2000px) {
+  input,
+  textarea {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .festival {
+    margin-left: 5rem;
+  }
+  .menu {
+    margin-right: 5rem;
+    gap: 1rem;
+  }
+
+  .contact_form_box,
+  .contact_info {
+    flex-basis: 100%;
+  }
+
+  .menu_footer {
+    margin-right: 5rem;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .festival {
+    margin-left: 5rem;
+  }
+  .contact_boxes {
+    flex-direction: column;
+  }
+
+  .menu_footer {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-right: 5rem;
+  }
+
+  .nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contact_info {
+    margin: 60px 0 0 5%;
+  }
+
+  .second_li {
+    gap: 2rem;
+  }
+  .menu_footer {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .festival {
+    margin-left: 2rem;
+  }
+  .hamburger {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  p {
+    font-size: 15px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+
+  .second_li {
+    flex-direction: column;
+  }
+  .foot {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 350px) {
+  p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,17 @@
+.map {
+  background-image: url(./Map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.vector {
+  display: block;
+  margin-top: -5rem;
+}

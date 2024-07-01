@@ -1,0 +1,101 @@
+.contact_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.contact_form_box {
+  flex-basis: 55%;
+  background-color: rgb(34, 34, 34, 0.02);
+}
+
+.contact_form {
+  padding-top: 4rem;
+  text-align: start;
+}
+
+label {
+  margin-left: 11%;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  color: #eb5757;
+}
+
+input,
+textarea {
+  font-size: 20px;
+  margin: 10px 0 30px 11%;
+  width: 60%;
+  height: 40px;
+  overflow: scroll;
+  border: none;
+  box-shadow: 3px 3px 3px 3px rgba(118, 117, 117, 0.1);
+}
+
+#message {
+  height: 100px;
+  resize: both;
+}
+
+#submit {
+  width: 172px;
+  height: 48px;
+  background-color: #eb5757;
+  color: #ffffff;
+  border: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  margin: 60px 0 0 15%;
+}
+
+.contact_info h2 {
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contact_info p {
+  padding-bottom: 10px;
+  width: 75%;
+  margin: 0;
+}
+
+.phone {
+  display: flex;
+  width: 50%;
+}
+
+.phone p {
+  margin-left: 5px;
+  font-size: 16;
+  font-weight: 700;
+  width: 100%;
+}
+
+.phone span {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 5px;
+  color: rgb(34, 34, 34, 0.5);
+}
+.phone img {
+  margin-top: 15px;
+}
+
+.icons {
+  width: 190px;
+}
+
+.icons img {
+  padding: 1rem 1rem 0 0;
+  vertical-align: middle;
+}
